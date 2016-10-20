@@ -18,7 +18,7 @@ def treasureHunt():
     # Treasure's coordinates
     x1 = random.choice(range(1, 31))
     y1 = random.choice(range(1, 31))
-    treasureLocation = (15, 15)
+    treasureLocation = (x1, y1)
     
     if (myLocation == treasureLocation):
         print (
